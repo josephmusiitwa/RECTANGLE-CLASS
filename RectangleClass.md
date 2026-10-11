@@ -1,9 +1,13 @@
 RECTANGLE CLASS 
 **OOP Concepts Used**
 • Encapsulation: The class Rectangle holds the data attributes (width and length) and the functions that manipulate them (getArea, getPerimeter). The data members length and width are declared as private, which hides their internal state from the rest of the program and protecting them from direct, unintended modification.
+
 • Constructors: The class utilizes a constructor to initialize objects upon creation. It uses a parameterized constructor with default arguments (double w=0.0, double l=0.0) combined with member initializer lists (width{w}, length{l}) for efficient initialization.
+
 • Getter and Setter Methods: Public methods (getWidth, getLength, setWidth, setLength) are provided to safely read and modify the private data members.
+
 • Const Member Functions: Functions like getArea() and getPerimeter() are marked as const. This guarantees that calling them will not alter the internal state of the Rectangle object.
+
 **Algorithm**
 1. Class Definition: I defined a Rectangle class with private variables to store its width and length.
 2. Initialization Setup:  A constructor was set up to assign initial values to the width and length whenever a new Rectangle object is instantiated.
