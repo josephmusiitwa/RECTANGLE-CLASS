@@ -22,5 +22,6 @@ d. Calculate and output the dimensions, area, and perimeter of'Rectangle2.
 
 **Possible Error Points**
 •Module & Format Support: The code uses c++23. If the code is compiled using an older compiler version, it will result in compilation errors.
+
 • Lack of Input Validation: The setter methods (setWidth and setLength) do not perform any checks to prevent negative values. A rectangle cannot logically possess a negative width or length. If negative values are passed, the program will blindly accept them, leading to incorrect calculations for the area and perimeter.
 
